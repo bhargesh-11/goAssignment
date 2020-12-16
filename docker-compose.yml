@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  go_app:
+     image: bhargesh/golang
+     ports:
+      - "8080:8080"
+     depends_on:
+      - redis
+      - kafka
+
+  kafka:
+     image: bhargesh/kafka
+     ports:
+      - 9092
+
+  redis:
+     image: redis:6.0-alpine
+     ports:
+       - 6379
