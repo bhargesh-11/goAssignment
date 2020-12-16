@@ -13,8 +13,7 @@ The http-server handles 2 routes
 
 # To run this project
 
-1. git clone https://github.com/bhargesh-11/goAssignment.git
-2. Install docker, docker-compose
-3. Run docker-compose up
-4. Produces an event on kafka using http://127.0.0.1:8080/produce
-5. View statistics using http://127.0.0.1:8080/
+1. Install docker, docker-compose
+2. Run docker-compose up
+3. Produces an event on kafka using http://127.0.0.1:8080/produce
+4. View statistics using http://127.0.0.1:8080/
